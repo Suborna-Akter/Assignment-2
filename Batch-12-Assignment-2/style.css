@@ -301,6 +301,7 @@ nav img{
 }
 /* banner desing */
 .banner{
+  gap: 30px;
   display: grid;
   grid-template-areas: 
   "banner-img"
@@ -308,13 +309,38 @@ nav img{
   ;
 } 
 .banner-img{
-  width: 100vw;
+  width:100%;
+  margin: 0;
+  margin-bottom: 0;
 }
+.banner-header{
+  margin-top: 0;
+    font-size:24px ;
+}
+.banner-header span{
+font-size:24px ;
+}
+.banner-description{
+font-size:14px;
+}
+/* Plants section */
+.plants{
+  margin: 30px;
+}
+.plants h3,.plants h3 span{
+  font-size:24px ;
+}
+.plants-header-description{
+  font-size:14px ;
+}
+.plants-header{
+  max-width: 100%;
+}
+.card img{
+  width: 200px;
 
-
-
-
-  .card-container{
+}
+.card-container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 10px;
@@ -322,6 +348,11 @@ nav img{
   .card{
     max-width: 200px;
   }
+  .card-container button{
+  width: 200px;
+   font-size:16px ;
+  padding: 10px 10px;
+}
 
 
 
@@ -358,15 +389,16 @@ nav img{
   .join-items{
     padding-top: 20px;
     margin-left: 0px;
+    margin-top: 30px;
   }
   #email{
     font-size: 16px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin-left:-20px;
   }
   #submit{
     font-size: 16px;
-    padding: 5px 3px;
+    padding: 10px 3px;
   }
 
 
