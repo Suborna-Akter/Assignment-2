@@ -152,3 +152,41 @@ font-size:22px ;
   border: none;
   padding: 10px 30px;
 }
+/* 4. Plants Lover Section */
+.plants-lover{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px;
+}
+.plants-lover img{
+  width: 90%;
+}
+.plants-lover h3{
+  width: 60%;
+  color: #000000;
+   font-size:50px ;
+  font-weight:700 ;
+}
+.plants-lover ul{
+  
+}
+.plants-lover li{
+  text-align: justify;
+  margin: 50px 0;
+   color: #00000050;
+   font-size: 24px ;
+  font-weight:400 ;
+}
+
+/* 5. Join Section */
+
+.join{
+  background-image: url(assets/news-letter-bg.png);
+  background-size: cover;
+  width: 100%;
+  height:700px;
+}
+.join div{
+  width: 60%;
+  align-items: center;
+}
