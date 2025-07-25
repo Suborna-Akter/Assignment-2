@@ -1,0 +1,17 @@
+.parent{
+    padding: 25px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.child{
+    border: 2px solid green;
+    background-color: #a882cc;
+    padding: 20px;
+    
+}

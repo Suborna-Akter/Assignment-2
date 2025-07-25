@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav li:hover{
+    background-color: rgb(122, 122, 201);
+}
